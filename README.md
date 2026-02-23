@@ -16,6 +16,24 @@ The **IPEM Plus** board maybe also mounted within a standard enclosure, without 
 
 **NEW SDK BOARD** - Availability planned for April 2026.
 
+## History
+
+The popular IPEM Series of Mains Energy Monitors started with the [IPEM](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor), which was an ESP32 based board and later the [IPEM PiHat](https://github.com/DitroniX/IPEM-PiHat-IoT-Power-Energy-Monitor), designed to interface to a Pi.
+
+These boards are used around the World and in so many project, from home, businesses, industry to Farming and Agriculture.
+
+Due to some obsolescence on some minor components, the IPEM board was required to be updated.   
+
+The enormous interest in  my recent LoRa range, such as the [ESPRanger](https://github.com/DitroniX/ESPRanger-LoRa-GNSS-GPS-IMU-RS485-60V) and [ESPKnack](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN) showed that rather than just tweak the original IPEM, it could be updated to offer a number of new features, and LoRa is just one of them.
+
+The new IPEM Plus board follows the design route of the new [ESPKnack](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN), so remains compact but allows for it to also be also optionally DIN mounted, using the DIN Enclosure.
+
+In addition, I have moved away from the ESP32-C6, in favour for the ESP32-C5, so allowing the same radio features that the C6 provides but also 5 GHz WiFi.  This opens up a range of new and exciting projects, especially in industry, where 5 GHz could be deployed in noisy environments.
+
+For those of you that do not require LoRa, but do require features of the original IPEM, the **IPEM Plus** will contiunue to provide this continuity and more.  Thus is will be the enhanced replacement for IPEM E32 and E36.
+
+A full subset of the **IPEM Plus** will be updated shorty.
+
 ## Updates
 
 -   26-02-15 - In Beta Development 
