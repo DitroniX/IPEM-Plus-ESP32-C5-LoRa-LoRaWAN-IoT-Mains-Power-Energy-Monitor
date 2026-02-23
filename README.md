@@ -30,7 +30,9 @@ The new IPEM Plus board follows the design route of the new [ESPKnack](https://g
 
 In addition, I have moved away from the ESP32-C6, in favour for the ESP32-C5, so allowing the same radio features that the C6 provides but also 5 GHz WiFi.  This opens up a range of new and exciting projects, especially in industry, where 5 GHz could be deployed in noisy environments.
 
-For those of you that do not require LoRa, but do require features of the original IPEM, the **IPEM Plus** will contiunue to provide this continuity and more.  Thus is will be the enhanced replacement for IPEM E32 and E36.
+For those of you that do not require LoRa, but do require features of the original IPEM, the **IPEM Plus** will continue to provide this continuity and more.  Thus is will be the enhanced replacement for IPEM E32 and E36.
+
+*Note, the [EPEM](https://github.com/DitroniX/EPEM-Ethernet-Power-Energy-Monitor) is unnafected, and continues as an important board in my power energy monitor portfolio.*
 
 A full subset of the **IPEM Plus** will be updated shorty.
 
