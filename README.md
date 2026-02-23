@@ -36,7 +36,7 @@ Compatibility with Home Automation software, such as Home Assistant, remains int
 
 *Note, the [EPEM](https://github.com/DitroniX/EPEM-Ethernet-Power-Energy-Monitor) is unnafected, and continues as an important board in my power energy monitor portfolio.*
 
-A full subset of the **IPEM Plus** will be updated shorty.
+A full subset of the **IPEM Plus** will be updated shortly.
 
 ## Updates
 
