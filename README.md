@@ -52,17 +52,21 @@ Example  [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-co
 ### Current Monitoring and Interfaces
 Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
 
- - The accurate **[Atmel ATM90E36](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf)** is used for Enhanced Poly-Phase High-Performance Wide-Span Energy Metering, with fast SPI data communications to an Espressif ESP32-C5 MCU.
- - The board can safely monitor a range of mains AC circuits, from single phase, split or dual phase (such as USA), and both types of three phase, star and delta. Full 50 Hz and 60 Hz.
- - An onboard accurate 16bit ADC allows for monitoring of DC voltages up to 80V.
+ - The accurate **[Atmel ATM90E36](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf)** is used for Enhanced Poly-Phase High-Performance Wide-Span Energy Metering, with fast SPI data communications to an Espressif **ESP32-C5 MCU**.
+ - The board can **safely monitor a range of mains AC circuits**, from Single phase, Split or Dual phase (such as USA), and both types of Three phase, Star and Delta. Full 50 Hz and 60 Hz.
+ - An onboard accurate **16bit ADC** allows for monitoring of DC voltages up to 80V.
    
- - The RS485 port allows interfacing to other local or remote sensors and monitors.
+ - The **RS485** port allows interfacing to other local or remote sensors and monitors.
+ 
+ - Accurate **Real Time Clock** DS3231SN, with Battery Backup Option.
    
- - A galvanically isolated OPTO output can be used to safely connect or drive a range of external systems or devices.
+ - A **galvanically isolated OPTO output** can be used to safely connect or drive a range of external systems or devices.
    
- - Two expansion ports, SPI and I2C, facilitate an optional display  panel with MicroSD card, for buffering or logging data.
+ - Two **expansion ports**, SPI and I2C, facilitate an optional display panel
+ 
+ -  **MicroSD card**, for buffering or logging data.  This is mounted in the display panel.
    
- - The IPEM Plus has been designed to be compact, with an option to fit into a DIN enclosure, for cabinet or rack installations.
+ - The IPEM Plus has been designed to be compact, with an option to fit into a **DIN enclosure**, for cabinet or rack installations.
    
  ### Safety First
 As with all our boards, safety is paramount, with AC sensing being from lower voltage inputs, through galvanically isolated mains transformers. Examples are bell transformers. This allows the IPEM Plus to fully safely function at voltages below 20V.  
