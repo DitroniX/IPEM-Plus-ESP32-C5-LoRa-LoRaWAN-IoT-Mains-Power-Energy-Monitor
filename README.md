@@ -15,6 +15,8 @@ The new **IPEM Plus** STEM board has been launched.
 
 Following in the footsteps of the original popular [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor), this **IPEM Plus** is the latest in IoT Mains Energy Monitoring for Home and Industry Automation.
 
+**IPEM Plus** is a self-contained monitoring board. Ideal for local, or remoting, monitoring requirements.
+
 ## *Preview*
 ![PREVIEW of IPEM Plus in DIN Enclosure Accessories](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20in%20DIN%20Enclosure%20(Accessories).png)
 
