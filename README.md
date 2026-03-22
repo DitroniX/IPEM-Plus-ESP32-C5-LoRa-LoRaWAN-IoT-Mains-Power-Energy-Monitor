@@ -27,6 +27,25 @@ The ESP32-C5 MCU enables the **IPEM Plus** to run as a low power, reliable, self
 
 In addition, to compliment the powerful C5 radio, the **IPEM Plus** has an onboard LoRa SX1262 Transceiver Radio. This allows for the board to be also used on remote Power Energy Monitoring, using the [LoRa and LoRaWan](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Lora-Topology-Overview) long range wireless network. This includes networks such as [TTN](https://www.thethingsnetwork.org/), [Meshtastic](https://meshtastic.org/), [Helium](https://www.helium.com/iot) and [ChirpStack](https://www.chirpstack.io/).
 
+The LoRa radio module operates from 850 MHz through to 930 MHz, so providing worldwide capability.  This uses the LoRa module E22-900M22S.  
+
+**IPEM Plus includes the expanded Satellite IoT range, enabling direct-to-satellite IoT connectivity.**
+
+This is really exciting, especially for those who wish to have really remote site monitoring.
+
+Example  [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/):
+
+-   AS923 (AS1) band (920-923 MHz) in Japan, Malaysia, Singapore
+-   AS923 (AS2) band (915–928 MHz) in Asia
+-   AU915 band (915–928 MHz) in South America
+-   CN779 band (779-787 MHz) in China
+-   EU868 band (863–870 MHz) in Europe
+-   IN865 band (865-867 MHz) in India
+-   KR920 band (920-923 MHz) in Korea
+-   RU864 band (864-870 MHz) in Russia
+-   US915 band (902–928 MHz) in North America
+
+
 ### Current Monitoring and Interfaces
 Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
 
