@@ -1,4 +1,4 @@
-** IPEM Plus ESP32-C5 LoRa LoRaWAN IoT Mains Power **
+** IPEM Plus ESP32-C5 LoRa LoRaWAN IoT Mains Power Energy Monitor **
 
 ------------
 
