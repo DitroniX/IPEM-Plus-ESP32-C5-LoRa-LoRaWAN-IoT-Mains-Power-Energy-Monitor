@@ -71,6 +71,8 @@ Expanding the mains current sensors, either CT Clamps, or Rogowski Current Trans
  ### Safety First
 As with all our boards, safety is paramount, with AC sensing being from lower voltage inputs, through galvanically isolated mains transformers. Examples are bell transformers. This allows the IPEM Plus to fully safely function at voltages below 20V.  
 
+ ## Availability
+
 **IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in April 2026.**
 
 ## Supports AC Monitoring Around The [World](https://en.wikipedia.org/wiki/Mains_electricity_by_country)
