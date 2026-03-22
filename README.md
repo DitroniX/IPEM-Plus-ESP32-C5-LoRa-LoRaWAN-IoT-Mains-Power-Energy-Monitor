@@ -1,3 +1,7 @@
+
+
+
+
 # IPEM Plus ESP32-C5 LoRa LoRaWAN IoT Mains Power Energy Monitor
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
@@ -5,46 +9,99 @@
 
 [**For Latest Project Updates - Click Here**](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor?tab=readme-ov-file#updates)
 
-**IPEM Plus** is an ESP32-C5 (2.4GHz and 5GHz) based IoT Power Mains Energy Monitor Board SDK with LoRa LoRaWAN (850 MHz through to 930 MHz)
+## [> Compare Mains Power IoT Energy Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Compare-Mains-Power-IoT-Energy-Monitors)
 
-The **IPEM Plus** board is designed to fit a DIN Enclosure, complete with optional Panel Display.  This enables the complete monitor to be mounted with an rack enclosure or cabinet, if required.
+The new **IPEM Plus** STEM board has been launched.
 
-The **IPEM Plus** board maybe also mounted within a standard enclosure, without the DIN option.
+Following in the footsteps of the original popular [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor), this **IPEM Plus** is the latest in IoT Mains Energy Monitoring for Home and Industry Automation.
 
-*Preview*
+**IPEM Plus** is a self-contained monitoring board. Ideal for local, or remoting, monitoring requirements.
+
+## *Preview*
 ![PREVIEW of IPEM Plus in DIN Enclosure Accessories](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20in%20DIN%20Enclosure%20(Accessories).png)
 
-**NEW SDK BOARD** - Availability planned for April 2026.
+## Overview
 
-## History
+### Built to Reliably Stand-Alone, with Instant Power Up and Low Power
 
-The popular IPEM Series of Mains Energy Monitors started with the [IPEM](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor), which was an ESP32 based board and later the [IPEM PiHat](https://github.com/DitroniX/IPEM-PiHat-IoT-Power-Energy-Monitor), designed to interface to a Pi.
+**IPEM Plus** includes the latest upgraded Espressif ESP32-C5, which has all the many features of the ESP32-C6, but with the dual band 2.4 GHz and 5 GHz Wi-fi. Bluetooth, Thread and Zigbee.  Integrated also with LoRa LoRaWAN radio (850 MHz through to 930 MHz).
 
-These boards are used around the World and in so many projects, from home, businesses, industry to Farming and Agriculture.
+The ESP32-C5 MCU enables the **IPEM Plus** to run as a low power, reliable, self-contained monitoring board.   Ideal for local or remoting monitoring requirements.
 
-Due to some obsolescence on some minor components, the IPEM board was required to be updated.   
+### LoRa Long Range IoT Data Radio Integration
 
-The enormous interest in  my recent LoRa range, such as the [ESPRanger](https://github.com/DitroniX/ESPRanger-LoRa-GNSS-GPS-IMU-RS485-60V) and [ESPKnack](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN) showed that rather than just tweak the original IPEM, it could be updated to offer a number of new features, and LoRa is just one of them.
+In addition, to compliment the powerful C5 radio, the **IPEM Plus** has an onboard LoRa SX1262 Transceiver Radio. This allows for the board to be also used on remote Power Energy Monitoring, using the [LoRa and LoRaWan](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Lora-Topology-Overview) long range wireless network. This includes networks such as [TTN](https://www.thethingsnetwork.org/), [Meshtastic](https://meshtastic.org/), [Helium](https://www.helium.com/iot) and [ChirpStack](https://www.chirpstack.io/).
 
-The new **IPEM Plus** board follows the design route of the new [ESPKnack](https://github.com/DitroniX/ESPKnack-LoRa-Isolated-I-Os-RS485-5-60V-4-20mA-Relays-DIN), so remains compact but allows for it to also be optionally DIN mounted, using the DIN Enclosure.  This also includes the expansion port and display panel board, such as included on the ESPKnack.
+The LoRa radio module operates from 850 MHz through to 930 MHz, so providing worldwide capability.  This uses the LoRa module E22-900M22S.  
 
-In addition, I have moved away from the ESP32-C6, in favour for the later ESP32-C5, so providing the same radio features as the ESP32-C6 but in addition, it has 5 GHz WiFi.  This opens up a range of new and exciting projects, especially in industry, where 5 GHz could be deployed in noisy environments.
+**IPEM Plus includes the expanded Satellite IoT range, enabling direct-to-satellite IoT connectivity.**
 
-For those of you that do not require LoRa, but do require features of the original IPEM, the **IPEM Plus** will continue to provide this continuity and more (simply just remove a link).  Thus is will be the enhanced replacement for IPEM E32 and E36.
+This is really exciting, especially for those who wish to have really remote site monitoring.
 
-Compatibility with Home Automation software, such as Home Assistant, remains integral to the design.
+Example  [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/):
 
-*Note, the [EPEM](https://github.com/DitroniX/EPEM-Ethernet-Power-Energy-Monitor) is unaffected, and continues as an important board in my power energy monitor portfolio.*
+-   AS923 (AS1) band (920-923 MHz) in Japan, Malaysia, Singapore
+-   AS923 (AS2) band (915–928 MHz) in Asia
+-   AU915 band (915–928 MHz) in South America
+-   CN779 band (779-787 MHz) in China
+-   EU868 band (863–870 MHz) in Europe
+-   IN865 band (865-867 MHz) in India
+-   KR920 band (920-923 MHz) in Korea
+-   RU864 band (864-870 MHz) in Russia
+-   US915 band (902–928 MHz) in North America
 
-A full subset of the **IPEM Plus** will be updated shortly.
+
+### Current Monitoring and Interfaces
+Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
+
+ - The accurate **[Atmel ATM90E36](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf)** is used for Enhanced Poly-Phase High-Performance Wide-Span Energy Metering, with fast SPI data communications to an Espressif **ESP32-C5 MCU**.
+ - The board can **safely monitor a range of mains AC circuits**, from Single phase, Split or Dual phase (such as USA), and both types of Three phase, Star and Delta. Full 50 Hz and 60 Hz.
+ - An onboard accurate **16bit ADC** allows for monitoring of DC voltages up to 80V.
+   
+ - The **RS485** port allows interfacing to other local or remote sensors and monitors.
+ 
+ - Accurate **Real Time Clock** DS3231SN, with Battery Backup Option.
+   
+ - A **galvanically isolated OPTO output** can be used to safely connect or drive a range of external systems or devices.
+   
+ - Two **expansion ports**, SPI and I2C, facilitate an optional display panel
+ 
+ -  **MicroSD card**, for buffering or logging data.  This is mounted in the display panel.
+   
+ - The IPEM Plus has been designed to be compact, with an option to fit into a **DIN enclosure**, for cabinet or rack installations.
+   
+ ### Safety First
+As with all our boards, safety is paramount, with AC sensing being from lower voltage inputs, through galvanically isolated mains transformers. Examples are bell transformers. This allows the IPEM Plus to fully safely function at voltages below 20V.  
+
+ ## Availability
+
+**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in April 2026.**
+
+## Supports AC Monitoring Around The [World](https://en.wikipedia.org/wiki/Mains_electricity_by_country)
+
+-   **Europe and UK** which typically is 230 V @ 50 Hz
+    -   With ranges around 216 V to 253 V
+    
+-   **USA and Canada** which typically is 120 V or 230 V @ 60 Hz
+    -   With ranges around 114 V to 126 V
+
+-   **Japan** which typically is 100 V @ 50 Hz or 60 Hz
+    -   Eastern Japan is 50 Hz, and Western Japan is 60 Hz
+-   **World** typically is 220V-240 V @ 50 Hz
+
+### AC Monitoring
+All AC Mains is safely and galvanically isolated using a low voltage transformer.  Examples are bell transformers.
 
 ## Updates
 
+-   26-03-20 - Pre-Production boards in SMT fabrication, for final testing.
+-   26-03-15 - Beta Development Complete
 -   26-02-15 - In Beta Development 
 -   26-02-01 - Project Launched
 
 ## Preliminary Information and Spec to follow 
 
+[Feature List Comparison](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Compare-Mains-Power-IoT-Energy-Monitors)
 
 ## **Further Information**
 
