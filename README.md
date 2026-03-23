@@ -24,19 +24,19 @@ Following in the footsteps of the original popular [IPEM boards](https://github.
 
 ### Built to Reliably Stand-Alone, with Instant Power Up and Low Power
 
-**IPEM Plus** includes the latest upgraded Espressif ESP32-C5, which has all the many features of the ESP32-C6, but with the dual band 2.4 GHz and 5 GHz Wi-fi. Bluetooth, Thread and Zigbee.  Integrated also with LoRa LoRaWAN radio (850 MHz through to 930 MHz).
+**IPEM Plus** includes the latest upgraded Espressif ESP32-C5, which has all the many features of the ESP32-C6, but with the dual band 2.4 GHz and 5 GHz Wi-fi. Bluetooth, Thread and Zigbee. 
 
-The ESP32-C5 MCU enables the **IPEM Plus** to run as a low power, reliable, self-contained monitoring board.   Ideal for local or remoting monitoring requirements.
+The ESP32-C5 MCU enables the **IPEM Plus** to run as a low power, reliable, self-contained monitoring board.   Ideal for local or remoting monitoring requirements.  Powered from local DC or AC.
 
 ### LoRa Long Range IoT Data Radio Integration
 
-In addition, to compliment the powerful C5 radio, the **IPEM Plus** has an onboard LoRa SX1262 Transceiver Radio. This allows for the board to be also used on remote Power Energy Monitoring, using the [LoRa and LoRaWan](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Lora-Topology-Overview) long range wireless network. This includes networks such as [TTN](https://www.thethingsnetwork.org/), [Meshtastic](https://meshtastic.org/), [Helium](https://www.helium.com/iot) and [ChirpStack](https://www.chirpstack.io/).
+In addition, to compliment the powerful C5 radio, the **IPEM Plus** has an onboard LoRa SX1262 Transceiver Radio. 
 
-The LoRa radio module operates from 850 MHz through to 930 MHz, so providing worldwide capability.  This uses the LoRa module E22-900M22S.  
+This allows **IPEM Plus** to be also used on remote Power Energy Monitoring projects, using the integrated [LoRa and LoRaWan](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Lora-Topology-Overview) long range wireless network. This includes networks such as [TTN](https://www.thethingsnetwork.org/), [Meshtastic](https://meshtastic.org/), [Helium](https://www.helium.com/iot) and [ChirpStack](https://www.chirpstack.io/).
 
-**IPEM Plus includes the expanded Satellite IoT range, enabling direct-to-satellite IoT connectivity.**
+![Lora Topology Overview](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20Lora%20Topology%20Overview.png)
 
-This is really exciting, especially for those who wish to have really remote site monitoring.
+The LoRa radio module operates from 850 MHz through to 930 MHz, so providing worldwide capability.  This uses the LoRa module E22-900M22S, incorporating the Semtech SX1262.
 
 Example  [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-country/):
 
@@ -50,6 +50,15 @@ Example  [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-co
 -   RU864 band (864-870 MHz) in Russia
 -   US915 band (902–928 MHz) in North America
 
+### LoRa Long Satellite IoT
+
+The **IPEM Plus LoRa Wireless includes the expanded Satellite IoT range, enabling direct-to-satellite IoT connectivity.**
+
+![Lora Satellite Overview](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20Lora%20Satellite%20Overview.png)
+
+Suitable circular polarized antenna will be required.
+
+This is really exciting, especially for those who wish to have really remote site monitoring and explore the available technology options.
 
 ### Current Monitoring and Interfaces
 Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
