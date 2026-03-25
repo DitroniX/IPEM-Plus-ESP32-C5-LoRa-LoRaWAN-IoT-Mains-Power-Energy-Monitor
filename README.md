@@ -11,13 +11,13 @@
 
 ## [> Compare Mains Power IoT Energy Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Compare-Mains-Power-IoT-Energy-Monitors)
 
-The new **IPEM Plus** STEM board has been launched.
+The new **IPEM Plus** STEM board has been launched.  This is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
 
 Following in the footsteps of the original popular [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor), this **IPEM Plus** is the latest in IoT Mains Energy Monitoring for Home and Industry Automation.
 
-**IPEM Plus** is a self-contained IoT monitoring board. Ideal for local, or remoting, monitoring requirements.
+**IPEM Plus** is a self-contained ESP32-C5 based IoT monitoring board. Ideal for local, or remoting, monitoring requirements.
 
-**IPEM Plus** connectivity allows Wi-Fi connections to 2.4GHz or 5GHz, in addition, you may also use the inbuilt LoRa IoT 850 MHz through to 930 MHz.
+**IPEM Plus** connectivity allows Wi-Fi connections to 2.4GHz or 5GHz, with Bluetooth, Thread and Zigbee.  In addition, you may also use the inbuilt LoRa Radio IoT 850 MHz through to 930 MHz.
 
 ## *Preview*
 ![PREVIEW of IPEM Plus in DIN Enclosure Accessories](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20in%20DIN%20Enclosure%20(Accessories).png)
