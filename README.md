@@ -11,7 +11,7 @@
 
 ## [> Compare Mains Power IoT Energy Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Compare-Mains-Power-IoT-Energy-Monitors)
 
-The new **IPEM Plus** STEM board has been launched.  This is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
+The new **IPEM Plus** STEM board has been launched in March 2026.  This is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
 
 Following in the footsteps of the original popular [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor), this **IPEM Plus** is the latest in IoT Mains Energy Monitoring for Home and Industry Automation.
 
