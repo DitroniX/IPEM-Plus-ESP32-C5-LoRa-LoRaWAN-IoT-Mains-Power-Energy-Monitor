@@ -1,19 +1,17 @@
-
-
-
-
-# IPEM Plus - ESP32-C5 | LoRa | IoT Mains Power Energy Monitor
+# IPEM Plus - ESP32-C5 | ATM90E36 | LoRa | IoT Mains Power Energy Monitor
 **Supporting STEM Electronic Internet of Things & Home Automation Technology for Smart Energy Monitoring**
 
 [![DitroniX WiKi Pages](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/GitGub%20WiKi.png?raw=true)](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki)
 
 [**For Latest Project Updates - Click Here**](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor?tab=readme-ov-file#updates)
 
+![IPEM Plus Preview](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20-%20Overview.png)
+
 ## Welcome to IPEM Plus
 
-The new **IPEM Plus** STEM board has been launched in March 2026.  This is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
+The new **IPEM Plus** STEM board has been launched, with availability in April.
 
-**IPEM Plus**  is a powerful Smart Home and Industry Automation Board, and Kit.
+**IPEM Plus**  is a powerful ATM90E36 Smart Home and Industry Automation Board, and Kit.
 
 It has been designed to easily monitor, and offer a flexible interface too, a whole range mains installations.
 
@@ -30,6 +28,8 @@ Following in the footsteps of the original popular [IPEM boards](https://github.
 **IPEM Plus** is a self-contained ESP32-C5 based IoT monitoring board. Ideal for local, or remoting, monitoring requirements.
 
 **IPEM Plus** connectivity allows Wi-Fi connections to 2.4GHz or 5GHz, with Bluetooth, Thread and Zigbee.  In addition, you may also use the inbuilt LoRa Radio IoT 850 MHz through to 930 MHz.
+
+**IPEM Plus** is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
 
 ## [Compare Mains Power IoT Energy Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Compare-Mains-Power-IoT-Energy-Monitors)
 
@@ -119,6 +119,7 @@ All AC Mains is safely and galvanically isolated using a low voltage transformer
 
 ## Updates
 
+-   26-03-29 - Preview Overview Released
 -   26-03-20 - Pre-Production boards in SMT fabrication, for final testing.
 -   26-03-15 - Beta Development Complete
 -   26-02-15 - In Beta Development 
