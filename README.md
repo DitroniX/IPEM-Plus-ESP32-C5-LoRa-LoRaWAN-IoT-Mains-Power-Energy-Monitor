@@ -9,7 +9,7 @@
 
 ## Welcome to IPEM Plus
 
-The new **IPEM Plus** STEM board has been launched in March 2026.  This is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
+The new **IPEM Plus** STEM board has been launched, with availability in April.
 
 **IPEM Plus**  is a powerful ATM90E36 Smart Home and Industry Automation Board, and Kit.
 
@@ -20,6 +20,8 @@ It has been designed to easily monitor, and offer a flexible interface too, a wh
 Using its 2.4GHz and 5GHz Wi-Fi, Thread and Zigbee ESP32-C5 radio module, you can use the **IPEM Plus** to connect to a whole range of Smart Monitoring applications and projects.
 
 Extending further, the built-in LoRa radio opens up long range and remote monitoring.
+
+This is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
 
 ### IPEM Continuity
 
