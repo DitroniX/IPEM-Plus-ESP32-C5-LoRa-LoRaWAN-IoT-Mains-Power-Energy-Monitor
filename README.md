@@ -11,7 +11,7 @@
 
 The new **IPEM Plus** STEM board has been launched in March 2026.  This is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
 
-**IPEM Plus**  is a powerful Smart Home and Industry Automation Board, and Kit.
+**IPEM Plus**  is a powerful ATM90E36 Smart Home and Industry Automation Board, and Kit.
 
 It has been designed to easily monitor, and offer a flexible interface too, a whole range mains installations.
 
