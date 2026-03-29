@@ -21,8 +21,6 @@ Using its 2.4GHz and 5GHz Wi-Fi, Thread and Zigbee ESP32-C5 radio module, you ca
 
 Extending further, the built-in LoRa radio opens up long range and remote monitoring.
 
-This is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
-
 ### IPEM Continuity
 
 Following in the footsteps of the original popular [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor), this **IPEM Plus** is the latest in IoT Mains Energy Monitoring for Home and Industry Automation.
@@ -30,6 +28,8 @@ Following in the footsteps of the original popular [IPEM boards](https://github.
 **IPEM Plus** is a self-contained ESP32-C5 based IoT monitoring board. Ideal for local, or remoting, monitoring requirements.
 
 **IPEM Plus** connectivity allows Wi-Fi connections to 2.4GHz or 5GHz, with Bluetooth, Thread and Zigbee.  In addition, you may also use the inbuilt LoRa Radio IoT 850 MHz through to 930 MHz.
+
+**IPEM Plus** is the replacement to the original [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor)
 
 ## [Compare Mains Power IoT Energy Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Compare-Mains-Power-IoT-Energy-Monitors)
 
