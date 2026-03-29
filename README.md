@@ -110,7 +110,7 @@ Example  [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-co
 
 ### LoRa Long Satellite IoT
 
-The **IPEM Plus LoRa Wireless includes the expanded Satellite IoT range, enabling direct-to-satellite IoT connectivity.**
+The **IPEM Plus** LoRa Wireless includes the expanded Satellite IoT range, enabling direct-to-satellite IoT connectivity, with suitable installation antenna.
 
 ![Lora Satellite Overview](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20Lora%20Satellite%20Overview.png)
 
