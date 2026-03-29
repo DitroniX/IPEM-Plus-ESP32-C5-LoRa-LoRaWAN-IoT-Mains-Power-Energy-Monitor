@@ -44,6 +44,48 @@ Following in the footsteps of the original popular [IPEM boards](https://github.
 
 The ESP32-C5 MCU enables the **IPEM Plus** to run as a low power, reliable, self-contained monitoring board.   Ideal for local or remoting monitoring requirements.  Powered from local DC or AC.
 
+### Current Monitoring and Interfaces
+Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
+
+ - The accurate **[Atmel ATM90E36](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf)** is used for Enhanced Poly-Phase High-Performance Wide-Span Energy Metering, with fast SPI data communications to an Espressif **ESP32-C5 MCU**.
+ - The board can **safely monitor a range of mains AC circuits**, from Single phase, Split or Dual phase (such as USA), and both types of Three phase, Star and Delta. Full 50 Hz and 60 Hz.
+ - An onboard accurate **16bit ADC** allows for monitoring of DC voltages up to 80V.
+   
+ - The **RS485** port allows interfacing to other local or remote sensors and monitors.
+ 
+ - Accurate **Real Time Clock** DS3231SN, with Battery Backup Option.
+   
+ - A **galvanically isolated OPTO output** can be used to safely connect or drive a range of external systems or devices.
+   
+ - Two **expansion ports**, SPI and I2C, facilitate an optional display panel
+ 
+ -  **MicroSD card**, for buffering or logging data.  This is mounted in the display panel.
+   
+ - The IPEM Plus has been designed to be compact, with an option to fit into a **DIN enclosure**, for cabinet or rack installations.
+   
+ ### Safety First
+As with all our boards, safety is paramount, with AC sensing being from lower voltage inputs, through galvanically isolated mains transformers. Examples are bell transformers. This allows the IPEM Plus to fully safely function at voltages below 20V.  
+
+## AC Monitoring
+All AC Mains is safely and galvanically isolated using a low voltage transformer.  Examples are bell transformers.
+
+### Supports AC Monitoring Around The [World](https://en.wikipedia.org/wiki/Mains_electricity_by_country)
+
+-   **Europe and UK** which typically is 230 V @ 50 Hz
+    -   With ranges around 216 V to 253 V
+    
+-   **USA and Canada** which typically is 120 V or 230 V @ 60 Hz
+    -   With ranges around 114 V to 126 V
+
+-   **Japan** which typically is 100 V @ 50 Hz or 60 Hz
+    -   Eastern Japan is 50 Hz, and Western Japan is 60 Hz
+-   **World** typically is 220V-240 V @ 50 Hz
+
+
+### Availability
+
+**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in April 2026.**
+
 ### LoRa Long Range IoT Data Radio Integration
 
 In addition, to compliment the powerful C5 radio, the **IPEM Plus** has an onboard LoRa SX1262 Transceiver Radio. 
@@ -68,54 +110,13 @@ Example  [bands](https://www.thethingsnetwork.org/docs/lorawan/frequencies-by-co
 
 ### LoRa Long Satellite IoT
 
-The **IPEM Plus LoRa Wireless includes the expanded Satellite IoT range, enabling direct-to-satellite IoT connectivity.**
+The **IPEM Plus** LoRa Wireless includes the expanded Satellite IoT range, enabling direct-to-satellite IoT connectivity, with suitable installation antenna.
 
 ![Lora Satellite Overview](https://github.com/DitroniX/DitroniX/blob/main/Files/DitroniX.net%20Lora%20Satellite%20Overview.png)
 
 Suitable circular polarized antenna will be required.
 
 This is really exciting, especially for those who wish to have really remote site monitoring and explore the available technology options.
-
-### Current Monitoring and Interfaces
-Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
-
- - The accurate **[Atmel ATM90E36](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf)** is used for Enhanced Poly-Phase High-Performance Wide-Span Energy Metering, with fast SPI data communications to an Espressif **ESP32-C5 MCU**.
- - The board can **safely monitor a range of mains AC circuits**, from Single phase, Split or Dual phase (such as USA), and both types of Three phase, Star and Delta. Full 50 Hz and 60 Hz.
- - An onboard accurate **16bit ADC** allows for monitoring of DC voltages up to 80V.
-   
- - The **RS485** port allows interfacing to other local or remote sensors and monitors.
- 
- - Accurate **Real Time Clock** DS3231SN, with Battery Backup Option.
-   
- - A **galvanically isolated OPTO output** can be used to safely connect or drive a range of external systems or devices.
-   
- - Two **expansion ports**, SPI and I2C, facilitate an optional display panel
- 
- -  **MicroSD card**, for buffering or logging data.  This is mounted in the display panel.
-   
- - The IPEM Plus has been designed to be compact, with an option to fit into a **DIN enclosure**, for cabinet or rack installations.
-   
- ### Safety First
-As with all our boards, safety is paramount, with AC sensing being from lower voltage inputs, through galvanically isolated mains transformers. Examples are bell transformers. This allows the IPEM Plus to fully safely function at voltages below 20V.  
-
- ## Availability
-
-**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in April 2026.**
-
-## Supports AC Monitoring Around The [World](https://en.wikipedia.org/wiki/Mains_electricity_by_country)
-
--   **Europe and UK** which typically is 230 V @ 50 Hz
-    -   With ranges around 216 V to 253 V
-    
--   **USA and Canada** which typically is 120 V or 230 V @ 60 Hz
-    -   With ranges around 114 V to 126 V
-
--   **Japan** which typically is 100 V @ 50 Hz or 60 Hz
-    -   Eastern Japan is 50 Hz, and Western Japan is 60 Hz
--   **World** typically is 220V-240 V @ 50 Hz
-
-### AC Monitoring
-All AC Mains is safely and galvanically isolated using a low voltage transformer.  Examples are bell transformers.
 
 ## Updates
 
