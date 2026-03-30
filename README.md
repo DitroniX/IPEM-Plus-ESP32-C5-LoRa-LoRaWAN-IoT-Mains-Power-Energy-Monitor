@@ -47,6 +47,8 @@ The ESP32-C5 MCU enables the **IPEM Plus** to run as a low power, reliable, self
 ### Current Monitoring and Interfaces
 Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
 
+![IPEM Plus Currrent Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20-%20Current%20Monitoring.png)
+
  - The accurate **[Atmel ATM90E36](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf)** is used for Enhanced Poly-Phase High-Performance Wide-Span Energy Metering, with fast SPI data communications to an Espressif **ESP32-C5 MCU**.
  - The board can **safely monitor a range of mains AC circuits**, from Single phase, Split or Dual phase (such as USA), and both types of Three phase, Star and Delta. Full 50 Hz and 60 Hz.
  - An onboard accurate **16bit ADC** allows for monitoring of DC voltages up to 80V.
@@ -81,10 +83,40 @@ All AC Mains is safely and galvanically isolated using a low voltage transformer
     -   Eastern Japan is 50 Hz, and Western Japan is 60 Hz
 -   **World** typically is 220V-240 V @ 50 Hz
 
+### Where can IPEM Plus be used?
 
-### Availability
+The IPEM  Plus board can be used in a number of projects and installations such as:
 
-**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in April 2026.**
+-   Homes
+    
+-   Education
+    
+-   Offices
+    
+-   Commercial
+    
+-   Factories
+    
+-   Farms
+    
+-   EV Charging
+    
+-   Smart Metering
+    
+-   Greenhouses
+    
+-   Factories
+    
+-   Industry
+    
+-   Solar Farms
+    
+-   Wind Farms
+    
+-   Off Grid Systems
+
+- Remote and/or Hill Top Sites
+
 
 ### LoRa Long Range IoT Data Radio Integration
 
@@ -129,6 +161,10 @@ This is really exciting, especially for those who wish to have really remote sit
 ## Preliminary Information and Spec to follow 
 
 [Feature List Comparison](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Compare-Mains-Power-IoT-Energy-Monitors)
+
+### Availability
+
+**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in April 2026.**
 
 ## **Further Information**
 
