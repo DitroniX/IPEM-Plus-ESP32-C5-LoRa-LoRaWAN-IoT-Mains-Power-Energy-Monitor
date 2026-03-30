@@ -11,7 +11,7 @@
 
 The new **IPEM Plus** STEM board has been launched, with availability in April.
 
-**IPEM Plus**  is a powerful ATM90E36 Smart Home and Industry Automation Board, and Kit.
+**IPEM Plus**  is a powerful ATM90E36 Smart Home and Industry Automation, [Mains Power Energy Monitor](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/What-is-a-Power-Energy-Monitor%3F) Board, and Kit.
 
 It has been designed to easily monitor, and offer a flexible interface too, a whole range mains installations.
 
