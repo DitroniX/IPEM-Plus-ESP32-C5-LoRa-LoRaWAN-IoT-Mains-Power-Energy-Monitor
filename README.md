@@ -52,6 +52,10 @@ Following in the footsteps of the original popular [IPEM boards](https://github.
 ## *Preview*
 ![PREVIEW of IPEM Plus in DIN Enclosure Accessories](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20in%20DIN%20Enclosure%20(Accessories).png)
 
+## User Interface
+
+**IPEM Plus** has been designed to interface the [Display User Panel](https://github.com/DitroniX/Display-User-Panel-Switches-LEDs-MicroSD)
+
 ## Overview
 
 ### Built to Reliably Stand-Alone, with Instant Power Up and Low Power
