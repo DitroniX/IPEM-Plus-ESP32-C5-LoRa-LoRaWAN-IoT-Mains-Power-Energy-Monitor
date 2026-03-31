@@ -11,15 +11,31 @@
 
 The new **IPEM Plus** STEM board has been launched, with availability in April.
 
-**IPEM Plus**  is a powerful ATM90E36 Smart Home and Industry Automation Board, and Kit.
+**IPEM Plus**  is a powerful ATM90E36 Smart Home and Industry Automation, [Mains Power Energy Monitor](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/What-is-a-Power-Energy-Monitor%3F) Board, and Kit.
 
-It has been designed to easily monitor, and offer a flexible interface too, a whole range mains installations.
+### Standalone or Integrated Remote
+
+**IPEM Plus**  has been designed to easily monitor, and offer a flexible interface too, a whole range mains installations.
+
+The **IPEM Plus** is a 'standalone board', where its ESP32-C5, interfaces with ESPHome firmware (as an example).. If preferred, you could easily send MQTT messages.  As it is ESP based, it will just power up and work.  No waiting to boot up.
+
+**IPEM Plus** runs locally, or via Home Assistant, Domoticz etc., or via IoT remote service. It is totally down the user as to which option is taken. Firmware is developed for example using Arduino IDE, PlatformIO (VS Code), ESP-IDF or ESPHome. Other local/remote platforms which have been used also include LabVIEW and Zabbix. Using the LoRa integration, MQTT type messages could be integrated locally or remotely. 
+
+Using the [RS485 interface](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/RS%E2%80%90485), messages could also be sent locally over a 'twisted pair', up to typical maximum distance of 1,200 meters (4000 feet). This is ideal for local hard wired installations where multiple **IPEM Plus** boards, and other RS485 devices, could sit on the same multi-point network.
 
 **Home | Industry | Housing | Educational | Farming | Agriculture | Solar | Energy**
 
 Using its 2.4GHz and 5GHz Wi-Fi, Thread and Zigbee ESP32-C5 radio module, you can use the **IPEM Plus** to connect to a whole range of Smart Monitoring applications and projects.
 
 Extending further, the built-in LoRa radio opens up long range and remote monitoring.
+
+### How does the Power Energy Monitor Work?
+
+A power energy monitor is a device that safely samples the [AC Voltage, and Current flow](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/What-is-a-Power-Energy-Monitor?), from one, or more, electrical phases, and from this, derives a range of accurate mains power measurements which can then be used for smart metering, or energy monitoring purposes.
+
+These individual measurements can then be extrapolated into a range of useful real-time data such as total RMS Power, Active, Re-Active Power, Harmonic Power, Power Factor, Phase Angles, Frequency, etc.
+
+This real-time data can then be sent via Wi-Fi, Lora, or RS485, through to IoT Home and Industrial Energy Monitoring systems like [Home Assistant](https://www.home-assistant.io/docs/energy/).
 
 ### IPEM Continuity
 
@@ -46,6 +62,8 @@ The ESP32-C5 MCU enables the **IPEM Plus** to run as a low power, reliable, self
 
 ### Current Monitoring and Interfaces
 Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
+
+![IPEM Plus Currrent Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20-%20Current%20Monitoring.png)
 
  - The accurate **[Atmel ATM90E36](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf)** is used for Enhanced Poly-Phase High-Performance Wide-Span Energy Metering, with fast SPI data communications to an Espressif **ESP32-C5 MCU**.
  - The board can **safely monitor a range of mains AC circuits**, from Single phase, Split or Dual phase (such as USA), and both types of Three phase, Star and Delta. Full 50 Hz and 60 Hz.
@@ -81,10 +99,40 @@ All AC Mains is safely and galvanically isolated using a low voltage transformer
     -   Eastern Japan is 50 Hz, and Western Japan is 60 Hz
 -   **World** typically is 220V-240 V @ 50 Hz
 
+### Where can IPEM Plus be used?
 
-### Availability
+The IPEM  Plus board can be used in a number of projects and installations such as:
 
-**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in April 2026.**
+-   Homes
+    
+-   Education
+    
+-   Offices
+    
+-   Commercial
+    
+-   Factories
+    
+-   Farms
+    
+-   EV Charging
+    
+-   Smart Metering
+    
+-   Greenhouses
+    
+-   Factories
+    
+-   Industry
+    
+-   Solar Farms
+    
+-   Wind Farms
+    
+-   Off Grid Systems
+
+- Remote and/or Hill Top Sites
+
 
 ### LoRa Long Range IoT Data Radio Integration
 
@@ -129,6 +177,10 @@ This is really exciting, especially for those who wish to have really remote sit
 ## Preliminary Information and Spec to follow 
 
 [Feature List Comparison](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Compare-Mains-Power-IoT-Energy-Monitors)
+
+### Availability
+
+**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in April 2026.**
 
 ## **Further Information**
 
