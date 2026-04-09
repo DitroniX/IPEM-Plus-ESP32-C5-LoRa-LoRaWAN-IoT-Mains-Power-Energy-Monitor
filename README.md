@@ -172,6 +172,7 @@ This is really exciting, especially for those who wish to have really remote sit
 
 ## Updates
 
+-   26-04-08 - Pre-Production Boards Arrived and now in Test.
 -   26-03-29 - Preview Overview Released
 -   26-03-20 - Pre-Production boards in SMT fabrication, for final testing.
 -   26-03-15 - Beta Development Complete
