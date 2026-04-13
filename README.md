@@ -9,7 +9,7 @@
 
 ## Welcome to IPEM Plus
 
-The new **IPEM Plus** STEM board has been launched, with availability in April.
+The new **IPEM Plus** STEM board has been launched, with availability in early May.
 
 **IPEM Plus**  is a powerful ATM90E36 Smart Home and Industry Automation, [Mains Power Energy Monitor](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/What-is-a-Power-Energy-Monitor%3F) Board, and Kit.
 
@@ -22,6 +22,8 @@ The **IPEM Plus** is a 'standalone board', where its ESP32-C5, interfaces with E
 **IPEM Plus** runs locally, or via Home Assistant, Domoticz etc., or via IoT remote service. It is totally down the user as to which option is taken. Firmware is developed for example using Arduino IDE, PlatformIO (VS Code), ESP-IDF or ESPHome. Other local/remote platforms which have been used also include LabVIEW and Zabbix. Using the LoRa integration, MQTT type messages could be integrated locally or remotely. 
 
 Using the [RS485 interface](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/RS%E2%80%90485), messages could also be sent locally over a 'twisted pair', up to typical maximum distance of 1,200 meters (4000 feet). This is ideal for local hard wired installations where multiple **IPEM Plus** boards, and other RS485 devices, could sit on the same multi-point network.
+
+Configuration has been designed to be [flexible](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/ABC-of-Set-Up-and-Configuration) but as easy as possible to implement using the [jumpers](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Jumper-Configurations).
 
 **Home | Industry | Housing | Educational | Farming | Agriculture | Solar | Energy**
 
