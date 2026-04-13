@@ -227,3 +227,7 @@ Electronics Engineer | Software Developer | R&D Support | RF Engineering | Produ
 ## STEM
 
 **Supporting [STEM Learning](https://www.stem.org.uk/)**
+
+
+
+Tags: 	1-3 Phase, 2.4GHz, 3P3W, 3P4W, 5GHz, 90E36, Agriculture, ATM90E36, Board, Delta, Digital Temperature Sensor, DS3231SN, EEPROM, Energy Monitor, ESP32-C5, Farming, Home, Home Assistant, Housing, Industry, IoT, IPEM, LoRa, LoRaWAN, Mains Monitoring, MicroSD, Poly-Phase Metering, Remote Monitoring, RTC, SDK, Smart Home, Smart Industrial, Solar, Star, STEM, SX1262, Thread, TMP102, UART, Wi-Fi 6, Zigbee, 2.4GHz, 5-20V DC Input, 868MHz, ADC, Agriculture, Bluetooth, DIN Enclosure, Display, DS3231SN, Educational, EEPROM, ESP32-C5, IPEM Plus, Expansion Interface, Farming, Inputs, Galvanic Isolated Output, Home Assistant, I2C Interface, Industrial, IoT, IPEM Plus, JST 12W 1mm, JST 6W 1mm, JST SH, LoRa, MicroSD, OLED, Opto Isolator, RadioLib, RGB WS2812, RS485, RS-485, DMX, DMX512, RTC, Solar Farm, SPI Interface, STEM, SX1262, Tactile Button, Thread, Type C, User Panel, Wi-Fi, WS2811, WS2812, Zigbee, Thread
