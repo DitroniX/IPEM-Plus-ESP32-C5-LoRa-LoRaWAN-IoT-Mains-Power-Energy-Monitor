@@ -39,6 +39,8 @@ These individual measurements can then be extrapolated into a range of useful re
 
 This real-time data can then be sent via Wi-Fi, Lora, or RS485, through to IoT Home and Industrial Energy Monitoring systems like [Home Assistant](https://www.home-assistant.io/docs/energy/).
 
+An [ABC Wiki page](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/ABC-of-Set-Up-and-Configuration) has been added, which may also assist with information.
+
 ### IPEM Continuity
 
 Following in the footsteps of the original popular [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor), this **IPEM Plus** is the latest in IoT Mains Energy Monitoring for Home and Industry Automation.
@@ -174,6 +176,8 @@ This is really exciting, especially for those who wish to have really remote sit
 
 ## Updates
 
+-   26-04-14 - Finalising design process this week, in preperation for production.
+-   26-04-11 - Lab testing is all but complete and the board is working really well on all fronts.
 -   26-04-08 - Pre-Production Boards Arrived and now in Test.
 -   26-03-29 - Preview Overview Released
 -   26-03-20 - Pre-Production boards in SMT fabrication, for final testing.
@@ -187,7 +191,7 @@ This is really exciting, especially for those who wish to have really remote sit
 
 ### Availability
 
-**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in April 2026.**
+**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in Early May 2026.**
 
 ## **Further Information**
 
