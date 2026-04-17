@@ -9,17 +9,19 @@
 
 ## Welcome to IPEM Plus
 
-The new **IPEM Plus** STEM board has been launched, with availability in early May.
+The new **IPEM Plus** STEM board has been launched, with availability in May.
 
 **IPEM Plus**  is a powerful ATM90E36 Smart Home and Industry Automation, [Mains Power Energy Monitor](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/What-is-a-Power-Energy-Monitor%3F) Board, and Kit.
 
 ### Standalone or Integrated Remote
 
-**IPEM Plus**  has been designed to easily monitor, and offer a flexible interface too, a whole range mains installations.
+**IPEM Plus**  has been designed to easily monitor, and offer a flexible interface too, a whole range Mains AC Power installations.
 
 The **IPEM Plus** is a 'standalone board', where its ESP32-C5, interfaces with ESPHome firmware (as an example).. If preferred, you could easily send MQTT messages.  As it is ESP based, it will just power up and work.  No waiting to boot up.
 
-**IPEM Plus** runs locally, or via Home Assistant, Domoticz etc., or via IoT remote service. It is totally down the user as to which option is taken. Firmware is developed for example using Arduino IDE, PlatformIO (VS Code), ESP-IDF or ESPHome. Other local/remote platforms which have been used also include LabVIEW and Zabbix. Using the LoRa integration, MQTT type messages could be integrated locally or remotely. 
+**IPEM Plus** runs locally, or via Home Assistant, Domoticz etc., or via an IoT remote service. 
+
+It is totally down the user as to which option is taken. Firmware is developed for example using Arduino IDE, PlatformIO (VS Code), ESP-IDF or ESPHome. Other local/remote platforms which have been used also include LabVIEW and Zabbix. Using the LoRa integration, MQTT type messages could be integrated locally or remotely. 
 
 Using the [RS485 interface](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/RS%E2%80%90485), messages could also be sent locally over a 'twisted pair', up to typical maximum distance of 1,200 meters (4000 feet). This is ideal for local hard wired installations where multiple **IPEM Plus** boards, and other RS485 devices, could sit on the same multi-point network.
 
@@ -71,7 +73,7 @@ The ESP32-C5 MCU enables the **IPEM Plus** to run as a low power, reliable, self
 ### Current Monitoring and Interfaces
 Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
 
-![IPEM Plus Currrent Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20-%20Current%20Monitoring.png)
+![IPEM Plus Current Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20-%20Current%20Monitoring.png)
 
  - The accurate **[Atmel ATM90E36](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf)** is used for Enhanced Poly-Phase High-Performance Wide-Span Energy Metering, with fast SPI data communications to an Espressif **ESP32-C5 MCU**.
  - The board can **safely monitor a range of mains AC circuits**, from Single phase, Split or Dual phase (such as USA), and both types of Three phase, Star and Delta. Full 50 Hz and 60 Hz.
@@ -176,7 +178,7 @@ This is really exciting, especially for those who wish to have really remote sit
 
 ## Updates
 
--   26-04-14 - Finalising design process this week, in preperation for production.
+-   26-04-14 - Finalising design process this week, in preparation for production.
 -   26-04-11 - Lab testing is all but complete and the board is working really well on all fronts.
 -   26-04-08 - Pre-Production Boards Arrived and now in Test.
 -   26-03-29 - Preview Overview Released
