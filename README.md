@@ -43,6 +43,17 @@ This real-time data can then be sent via Wi-Fi, Lora, or RS485, through to IoT H
 
 An [ABC Wiki page](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/ABC-of-Set-Up-and-Configuration) has been added, which may also assist with information.
 
+### Voltage and Current Monitoring
+
+Flexible monitgoring of both AC Voltage and AC Current is important for any installation.
+
+The below links go into more detail of these options.
+
+[AC Voltage Monitoring](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/AC-Mains-Voltage-Sense-Input)
+
+[AC Current Monitoring](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/AC-Current-and-Power-Monitoring)
+
+
 ### IPEM Continuity
 
 Following in the footsteps of the original popular [IPEM boards](https://github.com/DitroniX/IPEM-IoT-Power-Energy-Monitor), this **IPEM Plus** is the latest in IoT Mains Energy Monitoring for Home and Industry Automation.
@@ -74,6 +85,7 @@ The ESP32-C5 MCU enables the **IPEM Plus** to run as a low power, reliable, self
 Expanding the mains current sensors, either CT Clamps, or Rogowski Current Transformers, maybe connected. This allows for **IPEM Plus** to be used for both lower current Home systems and Industrial or commercial installations, which require higher current monitoring in hundreds of Amps.
 
 ![IPEM Plus Current Monitors](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20-%20Current%20Monitoring.png)
+
 
  - The accurate **[Atmel ATM90E36](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-46004-SE-M90E36A-Datasheet.pdf)** is used for Enhanced Poly-Phase High-Performance Wide-Span Energy Metering, with fast SPI data communications to an Espressif **ESP32-C5 MCU**.
  - The board can **safely monitor a range of mains AC circuits**, from Single phase, Split or Dual phase (such as USA), and both types of Three phase, Star and Delta. Full 50 Hz and 60 Hz.
