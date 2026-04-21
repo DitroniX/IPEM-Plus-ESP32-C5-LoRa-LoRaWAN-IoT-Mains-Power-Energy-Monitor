@@ -19,6 +19,8 @@ The new **IPEM Plus** STEM board has been launched, with availability in May.
 
 The **IPEM Plus** is a 'standalone board', where its ESP32-C5, interfaces with ESPHome firmware (as an example).. If preferred, you could easily send MQTT messages.  As it is ESP based, it will just power up and work.  No waiting to boot up.
 
+![IPEM Plus Terminal Connections](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20-%20Terminal%20Connections.png)
+
 **IPEM Plus** runs locally, or via Home Assistant, Domoticz etc., or via an IoT remote service. 
 
 It is totally down the user as to which option is taken. Firmware is developed for example using Arduino IDE, PlatformIO (VS Code), ESP-IDF or ESPHome. Other local/remote platforms which have been used also include LabVIEW and Zabbix. Using the LoRa integration, MQTT type messages could be integrated locally or remotely. 
