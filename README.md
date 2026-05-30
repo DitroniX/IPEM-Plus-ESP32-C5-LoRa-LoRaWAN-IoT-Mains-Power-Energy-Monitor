@@ -5,6 +5,7 @@
 **Pre-Release Information.
 
 [![DitroniX WiKi Pages](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/GitHub%20WiKi.png?raw=true)](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki)
+[![DitroniX Discussions](https://github.com/DitroniX/DitroniX/blob/main/Files/GitHub%20Discussions.png?raw=true)](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/discussions)
 
 [**For Latest Project Updates - Click Here**](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor?tab=readme-ov-file#updates)
 
@@ -12,7 +13,7 @@
 
 ## Welcome to IPEM Plus
 
-The new **IPEM Plus** STEM board has been launched, with availability in May.
+The new **IPEM Plus** STEM board has been launched, with availability in early June.
 
 **IPEM Plus**  is a self-contained, powerful ATM90E36 based, Smart Home and Industry Automation, Real-Time, [Mains Power Energy Monitor](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/What-is-a-Power-Energy-Monitor%3F) Board, and Kit.  No soldering required.
 
@@ -195,6 +196,7 @@ This is really exciting, especially for those who wish to have really remote sit
 
 ## Updates
 
+-   26-05-30 - IPEM Plus fully tested and in production.
 -   26-04-14 - Finalising design process this week, in preparation for production.
 -   26-04-11 - Lab testing is all but complete and the board is working really well on all fronts.
 -   26-04-08 - Pre-Production Boards Arrived and now in Test.
