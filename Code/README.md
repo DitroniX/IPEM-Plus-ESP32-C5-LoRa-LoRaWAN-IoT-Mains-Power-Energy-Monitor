@@ -2,7 +2,7 @@
 
 ------------
 
-This folder contains Example Source Code.
+This folder contains [Example Source Code](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Example-Firmware).
 
   The purpose of the test code is to cycle through the various main functions of the board, as shown below, as part of board bring up testing.
 
