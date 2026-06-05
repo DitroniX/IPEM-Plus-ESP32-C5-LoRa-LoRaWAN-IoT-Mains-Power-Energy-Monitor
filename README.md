@@ -196,7 +196,7 @@ This is really exciting, especially for those who wish to have really remote sit
 
 ## Updates
 
--   26-06-05 - More on order and in produciotn. ETA circa 20th June.
+-   26-06-05 - More on order and in production. ETA circa 20th June.
 -   26-06-04 - First production came in and pre-orders went stright out. Really pleased with the board.
 -   26-05-30 - IPEM Plus fully tested and in production.
 -   26-04-14 - Finalising design process this week, in preparation for production.
