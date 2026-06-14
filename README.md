@@ -196,6 +196,8 @@ This is really exciting, especially for those who wish to have really remote sit
 
 ## Updates
 
+-   26-06-05 - More on order and in production. ETA circa 20th June.
+-   26-06-04 - First production came in and pre-orders went stright out. Really pleased with the board.
 -   26-05-30 - IPEM Plus fully tested and in production.
 -   26-04-14 - Finalising design process this week, in preparation for production.
 -   26-04-11 - Lab testing is all but complete and the board is working really well on all fronts.
@@ -210,9 +212,14 @@ This is really exciting, especially for those who wish to have really remote sit
 
 [Feature List Comparison](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/Compare-Mains-Power-IoT-Energy-Monitors)
 
-### Availability
+## **Purchase**
 
-**IPEM Plus, along with the optional Display Board and DIN enclosure, will be available for purchase in Early May 2026.**
+* DitroniX Shop - You may also pre-order, and order, via the http://ditronix.net 
+
+* eBay - Our STEM SDK boards and accessories are available from our online shops on [eBay](https://www.ebay.co.uk/usr/ditronixuk)
+Note only available on eBay when in stock.
+
+[![Display-Type-B](https://raw.githubusercontent.com/DitroniX/DitroniX/main/Files/DitroniX.net%20STEM%20IoT%20eBay.jpg?raw=true)](https://www.ebay.co.uk/usr/ditronixuk)
 
 ## **Further Information**
 
