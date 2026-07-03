@@ -14,7 +14,9 @@
 
 The new **IPEM Plus** STEM board has been launched, with availability in early June.
 
-**IPEM Plus**  is a self-contained, powerful ATM90E36 based, Smart Home and Industry Automation, Real-Time, [Mains Power Energy Monitor](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/What-is-a-Power-Energy-Monitor%3F) Board, and Kit.  No soldering required.
+**IPEM Plus**  is a self-contained, powerful ATM90E36 based, Smart Home and Industry Automation, Real-Time, [Mains Power Energy Monitor](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/wiki/What-is-a-Power-Energy-Monitor%3F) Board, and Kit.  
+
+![IPEM Plus](https://github.com/DitroniX/IPEM-Plus-ESP32-C5-LoRa-LoRaWAN-IoT-Mains-Power-Energy-Monitor/blob/main/Datasheets%20and%20Information/IPEM%20Plus%20ESP32-C5%20LoRa%20SX1262%20ATM90E36.png)
 
 ### Standalone or Integrated Remote
 
